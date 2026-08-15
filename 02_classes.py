@@ -23,3 +23,24 @@ class Pen():
 
 p1 = Pen("uniball", "Red", "Roller Ball")
 print(type(p1))
+
+# what and why self ?
+# self refers to the current object.
+
+# Suppose we have two students:
+
+p2 = Pen("Luxor", "Black", "Fountain")
+p3 = Pen("Flair", "Blue", "Gel")
+
+# Both objects use the same class, but they need to store
+#  different data.
+# self tells Python which object's data you're talking about.
+
+# we use self by convention, you can use other names as well
+# the object and the self keyword share the same id in memory
+
+# self is the reference created to the object in a class
+
+# Function vs Method
+# A function is a reusable block of code. 
+# A method is a function that belongs to an object/class.
