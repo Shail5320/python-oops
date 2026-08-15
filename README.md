@@ -34,8 +34,8 @@ oops/
 ## Running
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>/oops
+git clone https://github.com/Shail5320/python-oops.git
+cd <python-oops>/oops
 python3 05_complex_numbers_project.py
 ```
 
